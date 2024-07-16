@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic In Properties</title>
+</head>
+<style>
+    #all{
+        margin: 0;
+        padding: 5px;
+        background-color: lightcoral;
+    }
+    #all >h3, #first{
+        margin: 10px;
+        padding: 5px;
+    }
+    #first{
+        background-color: aliceblue;
+    }
+    #first > h3 ,p {
+        margin: 40px;
+        font-size: 90%;
+    }
+</style>
+<body>
+    <article id="all">
+        
+        <article id="first">
+            <h3>This Is First Paragraph Heading</h3>
+            <p>Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet.
+            </p>
+        </article>
+        <article id="first">
+            <h3>This Is Second Paragraph Heading</h3>
+            <p>Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet.
+            </p>
+        </article>
+    </article>
+    <article>
+        <header>
+            <h1>Heading of Semantic</h1>
+            <p>Semantic Properties</p>
+        </header>
+    <p>Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit.
+    At nihil iste quod amet nulla 
+    dignissimos minima sit unde, non ea. 
+    Rem qui excepturi quos cum?</p>
+    </article>
+
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">Hege</a></p>
+    </footer>
+</body>
+</html>
